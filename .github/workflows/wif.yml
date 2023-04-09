@@ -20,5 +20,6 @@ jobs:
     - id: 'gcloud'
       name: 'gcloud'
       run: |
-        gcloud info
+        gcloud pubsub list topics
+        
       
