@@ -20,7 +20,6 @@ jobs:
     - id: 'gcloud'
       name: gcloud commands
       run: |
-        gcloud info
         gcloud pubsub topics list
         gcloud pubsub topics list-subscriptions 
         
