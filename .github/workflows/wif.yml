@@ -18,8 +18,9 @@ jobs:
     - name: Setup cloud SDK
       uses: 'google-github-actions/setup-gcloud@v1'
     - id: 'gcloud'
-      name: 'gcloud'
+      name: gcloud commands
       run: |
+        gcloud info
         gcloud pubsub topics list
         gcloud pubsub topics list-subscriptions 
         
